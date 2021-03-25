@@ -13,7 +13,7 @@
 
 전체 구조는 다음과 같다.
 
-![image_arch]()
+![image_arch](https://github.com/kjo26619/Image-Classification-Spring-Flask/blob/main/img/toy_arch.PNG)
 
 Spring boot를 이용해서 Web을 구성한다.
 
@@ -31,7 +31,7 @@ Flask에서 Pytorch 중 Imagenet으로 학습한 MobileNet V2 모델을 가지�
  # mvn clean pacakge
  ```
  
- ![image1]()
+ ![image1](https://github.com/kjo26619/Image-Classification-Spring-Flask/blob/main/img/toy1.PNG)
 
  Maven이 ImageClassification/target에 web-0.0.1-SNAPSHOT.jar를 만들어내면 된다.
 
@@ -49,19 +49,19 @@ Image를 Build해서 Local Repository에 저장한다. Flask를 구성 중에 Py
 
 Build 완료 시 Spring이 구동되는 것을 확인할 수 있다.
 
-![image2]()
+![image2](https://github.com/kjo26619/Image-Classification-Spring-Flask/blob/main/img/toy2.PNG)
 
 # Result
 
 localhost:8082/ 로 접속하면 된다.
 
-![image3]()
+![image3](https://github.com/kjo26619/Image-Classification-Spring-Flask/blob/main/img/toy3.PNG)
 
 원하는 Image를 선택한 후 [제출] 버튼을 누른다.
 
 제출하면 머신 러닝 학습이 끝난 뒤 결과를 반환해준다.
 
-![image4]()
+![image4](https://github.com/kjo26619/Image-Classification-Spring-Flask/blob/main/img/toy4.PNG)
 
 결과는 Imagenet을 토대로 분류된다.
 
@@ -71,5 +71,4 @@ localhost:8082/ 로 접속하면 된다.
 - Pytorch MobileNet V2 : https://pytorch.org/hub/pytorch_vision_mobilenet_v2/
 - Spring with Docker : https://spring.io/guides/gs/spring-boot-docker/
 - Python with Docker : https://docs.docker.com/language/python/build-images/
-
-
+- Maven build : https://sarc.io/index.php/cloud/1856-spring-boot-docker
