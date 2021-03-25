@@ -45,7 +45,7 @@ docker-compose.yaml 파일이 있는 곳에서 docker-compose up을 실행하면
 
 Image를 Build해서 Local Repository에 저장한다. Flask를 구성 중에 Pytorch가 높은 메모리를 차지하므로 주의할 것
 
-( Spring Image : 600~700MB, Flask Image : 2.8GB )
+( Spring Image : 695MB, Flask Image : 2.49GB )
 
 Build 완료 시 Spring이 구동되는 것을 확인할 수 있다.
 
