@@ -68,6 +68,7 @@ localhost:8082/ 로 접속하면 된다.
 # Reference
 
 - Imagenet : http://www.image-net.org/
+- Imagenet Clsidx to Labels : https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a
 - Pytorch MobileNet V2 : https://pytorch.org/hub/pytorch_vision_mobilenet_v2/
 - Spring with Docker : https://spring.io/guides/gs/spring-boot-docker/
 - Python with Docker : https://docs.docker.com/language/python/build-images/
