@@ -13,7 +13,7 @@
 
 전체 구조는 다음과 같다.
 
-![image_arch](https://github.com/kjo26619/Image-Classification-Spring-Flask/blob/main/img/toy_arch.PNG)
+![imageArch](https://github.com/kjo26619/Image-Classification-Spring-Flask/blob/main/img/toy_arch.png)
 
 Spring boot를 이용해서 Web을 구성한다.
 
