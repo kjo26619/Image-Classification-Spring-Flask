@@ -1,0 +1,24 @@
+version: "3"
+services:
+  ic_flask_api:
+    build:
+      context: ./webFlask
+      dockerfile: Dockerfile
+    networks:
+      - ic_network
+  
+  ic_spring_web:
+    build:
+      context: ./ImageClassification
+      dockerfile: Dockerfile
+    ports:
+      - 8082:8082
+    depends_on:
+      - ic_flask_api
+    networks:
+      - ic_network
+      - default
+
+networks:
+  ic_network:
+    driver: bridge
